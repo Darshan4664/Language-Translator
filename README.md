@@ -25,7 +25,7 @@ Flask-CORS
 
 📦 Installation and Setup
 1. Clone the Repository
-git clone https://github.com/your-username/language-translator.git
+git clone https://github.com/Darshan4664/language-translator.git
 cd language-translator
 
 3. Create a Python Environment (Optional but recommended)
