@@ -43,6 +43,7 @@ Server will start at: http://localhost:5000
 Simply double-click or serve the index.html file using any web server (or open it directly in your browser).
 
 📄 How It Works
+
 index.html: UI for input and output
 
 script.js: Captures text and language selection, sends a POST request to the backend
@@ -52,8 +53,8 @@ app.py: Receives the request, translates the text using Google Translate, and re
 style.css: Adds a clean and responsive UI design
 
 📝 Example
-Input Text: Hello
-Target Language: Hindi
+Input Text: Hello  
+Target Language: Hindi 
 Translated Text: नमस्ते
 
 
