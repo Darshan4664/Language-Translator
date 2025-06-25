@@ -53,8 +53,11 @@ app.py: Receives the request, translates the text using Google Translate, and re
 style.css: Adds a clean and responsive UI design
 
 📝 Example
-Input Text: Hello  
-Target Language: Hindi 
+
+Input Text: Hello
+
+Target Language: Hindi
+
 Translated Text: नमस्ते
 
 
