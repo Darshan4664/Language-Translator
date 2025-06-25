@@ -28,10 +28,6 @@ Flask-CORS
 git clone https://github.com/your-username/language-translator.git
 cd language-translator
 
-2. Create a Python Environment (Optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 3. Create a Python Environment (Optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
