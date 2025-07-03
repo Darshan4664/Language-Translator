@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Modern and clean font */
+}
+
+body {
+    background-color: #f7f7f7; /* Neutral light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Slight zoom-in effect when the container is hovered */
+}
+
+/* Heading */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    resize: vertical;
+    font-size: 1.1em;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #4CAF50; /* Green border when textarea is focused */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 1.1em;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+/* Button */
+.translate-btn {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+}
+
+.translate-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-5px); /* Button lift effect on hover */
+}
+
+.translate-btn:active {
+    transform: translateY(2px); /* Button pressed effect */
+}
+
+/* Result Section */
+.result {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 1.2em;
+    color: #333;
+    min-height: 50px;
+    transition: all 0.3s ease;
+}
+
+#translatedText {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .translate-btn {
+        font-size: 1.2em;
+    }
+
+    .form-group label,
+    .form-group select,
+    .form-group textarea {
+        font-size: 1em;
+    }
+}
